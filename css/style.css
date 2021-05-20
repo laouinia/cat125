@@ -1,7 +1,7 @@
 /* CORE STYLES */
 :root {
-  --primary-color: black;
-  --overlay-color: rgba(20, 21, 22, 0.85);
+  --primary-color: rgb(20, 20, 20);
+  --overlay-color: rgba(15, 15, 15, 0.75);
   --menu-speed: 0.75s;
 }
 
@@ -16,6 +16,13 @@ body {
   line-height: 1.4;
 }
 
+.tab {
+  text-indent: 40px;
+}
+.center {
+  text-align: center;
+}
+
 .container {
   max-width: 960px;
   margin: auto;
@@ -23,16 +30,26 @@ body {
   padding: 0 3rem;
 }
 
+/* mail calor of the main page */
 .showcase {
   background: var(--primary-color);
-  color: #fff;
+  color: rgb(255, 255, 255);
   height: 100vh;
   position: relative;
 }
 
+.showcase2 {
+  background: var(--primary-color);
+  color: rgb(255, 255, 255);
+  /* height: 100vh; */
+  position: relative;
+  font-size: x-large;
+  text-align: justify;
+  padding-top: 3rem;
+}
+
 .showcase:before {
   content: '';
-  /* background: url('https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center/cover; */
   position: absolute;
   top: 0;
   left: 0;
