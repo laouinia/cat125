@@ -16,6 +16,8 @@ body {
   line-height: 1.4;
 }
 
+
+
 .tab {
   text-indent: 40px;
 }
@@ -88,6 +90,18 @@ body {
   transition: opacity 1s ease-in-out;
   text-decoration: none;
   font-size: xx-large;
+}
+
+.btn2 {
+  display: inline-block;
+  border: none;
+  background: var(--primary-color);
+  color: rgb(255, 0, 0);
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  transition: opacity 1s ease-in-out;
+  text-decoration: none;
+  font-size: large;
 }
 
 .btn:hover {
@@ -263,3 +277,58 @@ body {
 
 }
 
+
+/* CSS for the gird */
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* background-color: #7a7a7a; */
+  padding: 0px;
+}
+.grid-item {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+/* L.A.'s Style */
+.la {
+  color: red;
+  text-decoration: double;
+}
+
+/* hyperlinks CSS */
+.aa {
+  
+  color: rgb(255, 255, 255); 
+  text-decoration: none;
+}
+
+/* Form Style */
+.form-style {
+  border-style: none;
+  background-color: rgb(20, 20, 20);
+}
+
+/* Style for Collage */
+.collage {
+  display: grid;
+  /* height: 90%; */
+  /* margin: 2rem; */
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  max-width: 500px;
+  max-height: 500;
+}
+
+.cell {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  /* padding: 1rem; */
+}
