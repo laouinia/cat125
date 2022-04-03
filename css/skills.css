@@ -35,37 +35,42 @@
   }
 
   .htmlBar {
-    width: 70%;
+    width: 80%;
     animation: html 3s 1s 5 forwards;
   }
   .cssBar {
-    width: 70%;
+    width: 60%;
     animation: css 3s 1s 5 forwards;
   }
   .jsBar {
-    width: 75%;
+    width: 40%;
     animation: js 3s 1s 5 forwards;
   }
   
   .javaBar {
-    width: 85%;
+    width: 50%;
     animation: java 3s 1s 5 forwards;
   }
   .ccpBar {
-    width: 80%;
+    width: 60%;
     animation: ccp 3s 1s 5 forwards;
   }
-  .reactBar {
-    width: 10%;
-    animation: react 3s 1s 5 forwards;
+  .pythonBar {
+    width: 75%;
+    animation: python 3s 1s 5 forwards;
   }
   .nodeBar {
     width: 35%;
     animation: node 3s 1s 5 forwards;
   }
   .sqlBar {
-    width: 85%;
+    width: 50%;
     animation: sql 3s 1s 5 forwards;
+  }
+
+  .rustBar {
+    width: 25%;
+    animation: rust 3s 1s 5 forwards;
   }
   
   @keyframes html {
@@ -73,7 +78,7 @@
       width: 0%;
     }
     100% {
-      width: 95%;
+      width: 80%;
     }
   }
   @keyframes css {
@@ -81,7 +86,7 @@
       width: 0%;
     }
     100% {
-      width: 70%;
+      width: 60%;
     }
   }
   @keyframes js {
@@ -89,7 +94,7 @@
       width: 0%;
     }
     100% {
-      width: 75%;
+      width: 40%;
     }
   }
   @keyframes java {
@@ -97,7 +102,7 @@
       width: 0%;
     }
     100% {
-      width: 85%;
+      width: 50%;
     }
   }
   @keyframes ccp {
@@ -105,15 +110,15 @@
       width: 0%;
     }
     100% {
-      width: 80%;
+      width: 65%;
     }
   }
-  @keyframes react {
+  @keyframes python {
     0% {
       width: 0%;
     }
     100% {
-      width: 70%;
+      width: 75%;
     }
   }
   @keyframes node {
@@ -130,6 +135,15 @@
       width: 0%;
     }
     100% {
-      width: 85%;
+      width: 50%;
+    }
+  }
+
+  @keyframes rust {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 25%;
     }
   }
